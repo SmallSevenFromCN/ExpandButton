@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExpandButton">
+
+        <!--圆的半径-->
+        <attr name="radius" format="dimension"/>
+        <!--加按钮的背景色前景色-->
+        <attr name="buttonBgColor" format="color"/>
+        <!--几个圆的宽度-->
+        <attr name="circleCount" format="integer"/>
+        <!--显示的文字-->
+        <attr name="buttonText" format="string"/>
+        <!--显示文字的大小-->
+        <attr name="buttonTextSize" format="dimension"/>
+        <!--字体颜色-->
+        <attr name="buttonTextColor" format="color"/>
+        <!--图片路径-->
+        <attr name="buttonPicSrc" format="reference"/>
+        <!--动画时间间隔-->
+        <attr name="animDuration" format="integer"/>
+        <!--成圆形的时候的颜色-->
+        <attr name="circleColor" format="color"/>
+        <!--哪边是起始方向，默认左边-->
+        <attr name="isLeftSide" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>

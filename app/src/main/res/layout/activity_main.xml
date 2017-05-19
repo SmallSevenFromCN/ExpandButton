@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lye.lcb.expandbutton.MainActivity">
+
+    <com.lye.lcb.expandbutton.ExpandButton
+        android:id="@+id/ebt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonBgColor="@color/colorPrimary"
+        app:buttonPicSrc="@mipmap/arrow"
+        app:buttonText="超甜"
+        app:buttonTextSize="16sp"
+        app:buttonTextColor="@color/colorWhite"
+        app:circleCount="4"
+        app:radius="30dp"
+        app:animDuration="200"
+        app:circleColor="@color/colorAccent"
+        app:isLeftSide="true"
+        />
+
+    <Button
+        android:layout_below="@+id/ebt"
+        android:text="点击"
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
